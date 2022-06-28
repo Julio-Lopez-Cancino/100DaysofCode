@@ -1,4 +1,4 @@
-from replit import clear  # comment in case the replit module is not installed.
+# from replit import clear  # uncomment in case the replit module is installed.
 import random
 from hangman_art import stages, logo
 from hangman_words import word_list
@@ -19,7 +19,7 @@ while not end_of_game:
     guess = input("Guess a letter: ").lower()
 
     # clear the screen for having a better user experience
-    clear()
+    # clear()
 
     # Check if letter has been guessed already.
     if guess in display:
